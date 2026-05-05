@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #122033;
+  background: #f4f7fb;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(47, 111, 237, 0.08), transparent 26%),
+    radial-gradient(circle at bottom right, rgba(15, 143, 140, 0.08), transparent 24%),
+    #f4f7fb;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@layer components {
+  .panel-card {
+    @apply rounded-[28px] bg-white shadow-panel;
+  }
+
+  .input-field {
+    @apply w-full rounded-[18px] border border-line bg-white px-4 py-3 text-[15px] text-ink outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/10;
+  }
+
+  .primary-button {
+    @apply rounded-2xl bg-hero px-5 py-3.5 text-sm font-bold text-white shadow-soft transition hover:opacity-95;
+  }
+
+  .secondary-button {
+    @apply rounded-2xl bg-accentSoft px-5 py-3.5 text-sm font-bold text-accent transition hover:bg-accent hover:text-white;
+  }
+
+  .ghost-button {
+    @apply rounded-2xl bg-slate-100 px-5 py-3.5 text-sm font-bold text-slate-600 transition hover:bg-slate-200;
+  }
+}

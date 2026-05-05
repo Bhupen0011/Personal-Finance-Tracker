@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(node week9_10_doc.js)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/validate.py' /tmp/Week9_Sprint1Review_Retrospective_PersonalFinanceTracker.docx)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/validate.py' /tmp/Week10_Sprint1Review_Retrospective_PersonalFinanceTracker.docx)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/Week 11 Rubric sheet_Interim review of sprint 1 \\(1\\).docx\" -o /tmp/w11.md)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/Week 12 Rubric sheet_Interim review of sprint 1 \\(1\\).docx\" -o /tmp/w12.md)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/Week 13_Rubric Sheet_Sprint review & Retrospective  \\(1\\) \\(2\\).docx\" -o /tmp/w13.md)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/Week 14_Rubric Sheet_Sprint review & Retrospective  \\(1\\) \\(2\\).docx\" -o /tmp/w14.md)",
+      "Bash(node week11_14_doc.js)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/SAMPLE PROJECT REPORT -Product Based.docx\" -o /tmp/sample_report.md)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/unpack.py' '/Users/bhupenpradhan/Downloads/SAMPLE PROJECT REPORT -Product Based.docx' /tmp/sample_unpacked/)",
+      "Bash(node project_report.js)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/validate.py' /tmp/PersonalFinanceTracker_ProjectReport.docx)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/unpack.py' /tmp/PersonalFinanceTracker_ProjectReport.docx /tmp/report_unpacked/)",
+      "Bash(python3)",
+      "Bash(pandoc \"/Users/bhupenpradhan/Downloads/Team7RMMM_Plan \\(1\\).pdf\" -o /tmp/rmmm_template.md)",
+      "Bash(brew install *)",
+      "Bash(pdftotext \"/Users/bhupenpradhan/Downloads/Team7RMMM_Plan \\(1\\).pdf\" /tmp/rmmm_template.txt)",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/validate.py' /tmp/PersonalFinanceTracker_RMMM_Plan.docx)",
+      "Bash(python3 -c \"import matplotlib; import numpy; print\\('OK', matplotlib.__version__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"import matplotlib; print\\('OK', matplotlib.__version__\\)\")",
+      "Bash(python3 '/Users/bhupenpradhan/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/f97c1fa8-07ae-49c8-bc86-dd7034dc0115/8cb8132b-192f-47fa-b146-64c149e0a040/skills/docx/scripts/office/unpack.py' '/Users/bhupenpradhan/Desktop/Personal Finance Tracker/PersonalFinanceTracker_ProjectReport.docx' /tmp/projreport_unpacked/)",
+      "Bash(python3 /tmp/embed_figures.py)"
+    ]
+  }
+}
